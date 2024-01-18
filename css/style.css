@@ -6,6 +6,14 @@
     --dark: #111111;
 }
 
+.my_class{
+    transition: all 0.5s ease;
+}
+
+.my_class:hover{
+    transform: scale(1.1);
+}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -24,10 +32,10 @@
     padding-bottom: 6rem;
 }
 
-.bg-icon {
+/* .bg-icon {
     background: url(../img/bg-icon.png) center center repeat;
     background-size: contain;
-}
+} */
 
 
 /*** Spinner ***/
