@@ -191,9 +191,17 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: url(../img/carousel-1.jpg) top right no-repeat;
+    background: url(../img/carousel-2.jpg) top right no-repeat;
     background-size: cover;
 }
+
+.page-header3 {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    background: url(../img/contact.jpg) top right no-repeat;
+    background-size: cover;
+}
+
 
 .breadcrumb-item+.breadcrumb-item::before {
     color: #999999;
@@ -382,3 +390,283 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+
+.formcontact{
+    background: url(../img/form.jpg);
+    background-size: cover;
+    margin: 50px auto;
+    padding: 100px;
+    border-radius: 50px;
+}
+
+.addresscontact{
+    background: url(../img/address.jpg);
+    background-size: cover;
+    border-radius: 50px;
+     
+}
+
+ /* Reusable styles for blog containers */
+ /* Reusable styles for blog containers */
+.blog-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; /* Stack children in a column */
+    justify-content: flex-end; /* Align children at the bottom */
+}
+
+/* Reusable background image styles */
+.blog-container::after {
+    content: "";
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: transform 0.3s;
+}
+
+/* Styles for the first blog container */
+.s_class_blog1 {
+    padding: 250px;
+}
+
+.s_class_blog1::after {
+    background-image: url(../img/s_cow_milk.jpg);
+}
+
+/* Styles for the second blog container */
+.s_class_blog2 {
+    /* Additional styles specific to the second container if needed */
+    height: 350px;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.s_class_blog2::after {
+    background-image: url(../img/blog-3.jpg);
+}
+
+.s_class_blog {
+    /* Additional styles specific to the second container if needed */
+    height: 350px;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.s_class_blog::after {
+    background-image: url(../img/blog-2.jpg);
+}
+
+/* Styles for buttons and text within the blog containers */
+.blog-container .text-white,
+.blog-container .btn-success {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    transition: text-decoration 0.1s ease-in-out;
+}
+
+.blog-container .text-white:hover {
+    text-decoration: underline;
+}
+
+.blog-container .btn-success {
+    /* Button styles */
+    border-radius: 10px;
+    margin-bottom: 10px; /* Add margin to separate from the bottom */
+}
+
+.blog-container .btn-success:hover {
+    /* Button hover styles */
+    background-color: #111111;
+}
+
+.blog-container:hover::after {
+    transform: scale(1.1);
+}
+
+
+.s_blog4{
+    background: url(.//img/paneer.jpg) no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.s_blog5{
+    background: url(./img/chheese.jpg) no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.s_blog6{
+    background: url(./img/drink.jpg) no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+/* .s_blog7{
+    background: url(./img/paneer2.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 800px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+} */
+
+.s_blog7 {
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    width: 800px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.image-container7 {
+    background: url(./img/paneer2.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.s_blog7:hover .image-container7 {
+    transform: scale(1.2); /* Adjust the scaling factor as needed */
+}
+
+.s_blog8{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    width: 800px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+
+}
+
+.image-container8 {
+    background: url(./img/panner3.jpg ) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.s_blog8:hover .image-container8 {
+    transform: scale(1.2); /* Adjust the scaling factor as needed */
+}
+
+
+.s_blog9{
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    width: 1200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    
+}
+
+.image-container9 {
+    background: url(./img/paneer4.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.s_blog9:hover .image-container9 {
+    transform: scale(1.2); /* Adjust the scaling factor as needed */
+}
+
+.s_blog10{
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    width: 1200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    
+    
+}
+
+.image-container10 {
+    background: url(./img/kheer.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.s_blog10:hover .image-container10 {
+    transform: scale(1.2); /* Adjust the scaling factor as needed */
+}
+
+
+.s_blog11{
+     
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    width: 1200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+  
+    
+}
+
+.image-container11 {
+    background: url(./img/chheese.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.s_blog11:hover .image-container10 {
+    transform: scale(1.2); /* Adjust the scaling factor as needed */
+}
+
+.btn-success:hover {
+    background-color: black; /* Change to the desired color */
+    color: white; /* Change to the desired color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.fixed-column {
+position: sticky;
+top: 0;
+height: 100vh; /* Adjust this value based on your layout */
+overflow-y: auto;
+}
+
+
